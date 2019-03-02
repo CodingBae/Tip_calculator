@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-section{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom right, #2980b9, #6dd5fa, #ffffff);
+    font-size: 1.5rem;
+}
+#form-container{
+    border-radius: 1rem;
+    padding: 2rem;
+    background: linear-gradient(to right, #00b4db, #0083b0); 
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#title-container{
+   border-bottom: 3px solid grey;
+}
+#title-container h1{
+    margin-left: 2.4rem;
+}
+form input[type=number]{
+    height: 2.2rem;
+    margin-left: 1rem;
+    background: #2980b9;
+    font-size: 1.2rem;
+    border: 3px solid #2980b9;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+
+select{
+    height: 2.1rem;
+    font-size: 1.3rem;
+    background: #00b4db;
+    border: 2px solid #00b4db;
+    border-radius: .2rem;
+}
+p{
+    margin-bottom: .5rem;
+}
+
+#total-cost{
+    margin: 1.5rem 0;
+}
+
+#service-type{
+    margin-bottom: 1.5rem;
+}
+
+#button-container button {
+    margin-top: 2rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin-left: 25%;
+    background: #0083b0;
+    border: 3px solid #0083b0;
+    border-radius: .3rem;
+    padding: .3rem;
+    font-weight: 900;
+    color: grey; 
+    cursor: pointer;
+}
+*:focus{
+    outline: none;
+}
